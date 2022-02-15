@@ -1,0 +1,102 @@
+/* This changes three of the default styles and many webdesigners include this in the top of every style they create. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  margin: auto;
+  margin-top: 6em;
+  margin-bottom: 6em;
+  max-width: 800px;
+  background: #BC8F8F;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: 'Calligraffitti', cursive;;
+}
+
+/*  SCALLOP up 1 */
+.scallop-up1 {
+  height:100px;
+  width:100%;
+  background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40, from(#FFE4E1), color-stop(0.49, #FFE4E1), color-stop(0.51, #BC8F8F), to(#BC8F8F));
+-webkit-background-size: 35px 100%;
+}
+
+div.mistyrose-block {
+  background:#FFE4E1;
+  width:100%;
+  padding:7% 20% 10% 20%;
+  color:#000;
+}
+
+div{
+  line-height: 30px;
+}
+
+div#poem1 {
+  font-family: baskerville;
+  font-size: 19px;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 18px;
+}
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/*  SCALLOP down 1 */
+.scallop-down1 {
+  height:100px;
+  width:100%;
+  background: -webkit-gradient(radial, 50% 0, 10, 50% 0, 40, from(#FFE4E1), color-stop(0.49, #FFE4E1), color-stop(0.51, #60D1C6), to(#60D1C6));
+-webkit-background-size: 35px 100%;
+}
+
+div.paleturquoise-block {
+  background:#60D1C6;
+  width:100%;
+  padding:7% 20% 10% 20%;
+  color:#000;
+}
+
+div#poem2 {
+  font-family: fantasy;
+  font-size: 19px;
+}
+
+/*  SCALLOP up 2 */
+.scallop-up2 {
+  height:100px;
+  width:100%;
+  background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40, from(#F5F5DC), color-stop(0.49, #F5F5DC), color-stop(0.51, #60D1C6), to(#60D1C6));
+-webkit-background-size: 35px 100%;
+}
+
+div.beige-block {
+  background:#F5F5DC;
+  width:100%;
+  padding:7% 20% 10% 20%;
+  color:#000;
+}
+
+div#poem3 {
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 20px;
+}
+
+/*  SCALLOP down 2 */
+.scallop-down2 {
+  height:100px;
+  width:100%;
+  background: -webkit-gradient(radial, 50% 0, 10, 50% 0, 40, from(#F5F5DC), color-stop(0.49, #F5F5DC), color-stop(0.51, #BC8F8F), to(#BC8F8F));
+-webkit-background-size: 35px 100%;
+}

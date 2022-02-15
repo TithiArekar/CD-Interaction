@@ -1,0 +1,70 @@
+/* This changes three of the default styles and many webdesigners include this in the top of every style they create. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("woodpattern.png");
+  margin: 90px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+main {
+  margin: auto;
+  max-width: 888px;
+}
+
+h1 {
+  font-family: Papyrus;
+  font-size: 60px;
+  color: #653818;
+  text-align: center;
+}
+
+h2 {
+  background-color: #EBC7B2;
+  text-align: center;
+  font-size: 30px;
+}
+
+p {
+  text-align: center;
+  font-size: 25px;
+}
+
+ul {
+  margin: 50px;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+.img1{
+  position: absolute;
+  right: 70px;
+}
+
+.img2{
+  position: absolute;
+  right: 70px;
+}
+
+ol {
+  margin: 50px;
+  font-size: 20px;
+  line-height: 50px;
+}
+
+marquee {
+  color: #9D2235;
+  font-size: 50px;
+  font-family:Papyrus;
+  background-color: #EBC7B2;
+}
+
+.img3 {
+  position: absolute;
+  right: 400px;
+  padding: 50px;
+}
