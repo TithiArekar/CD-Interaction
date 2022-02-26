@@ -1,0 +1,262 @@
+/* This changes three of the default styles and many webdesigners include this in the top of every style they create. */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  text-align: center;
+  margin: auto;
+  margin-top: 3em;
+  margin-bottom: 6em;
+  max-width: 1000px;
+  background: #BC8F8F;
+}
+
+div.home-block {
+  background:#FFE4E1;
+}
+
+div.poems-menu-container {
+  background:#FFE4E1;
+  width: 1000px;
+  padding: 30px;
+  color:#000;
+}
+
+div.poems-menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+/* ---- Pseudo Classes ---- */
+/* ---- button0 ---- */
+a.button0:link {
+  display: block;
+  text-decoration: none;
+  background-color: #FFE4E1;
+  padding: 15px;
+  color: black;
+}
+
+a.button0:visited {
+  display: block;
+  text-decoration: none;
+  background-color: #FFE4E1;
+  padding: 15px;
+  color: black;
+}
+
+a.button0:hover {
+  color: purple;
+  background-color: #FFE4E1;
+}
+
+a.button0:active {
+  color: #FFF;
+  background-color: #FFE4E1;
+}
+
+/* ---- button1 ---- */
+a.button1:link {
+  display: block;
+  text-decoration: none;
+  background-color: #abb1cf;
+  padding: 15px;
+  color: black;
+}
+
+a.button1:visited {
+  display: block;
+  text-decoration: none;
+  background-color: #abb1cf;
+  padding: 15px;
+  color: purple;
+}
+
+a.button1:hover {
+  color: white;
+  background-color: #76AEED; /* light-blue */
+}
+
+a.button1:active {
+  color: #FFF;
+  background-color: #5995DA; /* dark-blue */
+}
+
+/* ---- button2 ---- */
+a.button2:link {
+  display: block;
+  text-decoration: none;
+  background-color: #60D1C6;
+  padding: 15px;
+  color: black;
+}
+
+a.button2:visited {
+  display: block;
+  text-decoration: none;
+  background-color: #60D1C6;
+  padding: 15px;
+  color: purple;
+}
+
+a.button2:hover {
+  color: white;
+  background-color: #76AEED; /* light-blue */
+}
+
+a.button2:active {
+  color: #FFF;
+  background-color: #5995DA; /* dark-blue */
+}
+
+/* ---- button3 ---- */
+a.button3:link {
+  display: block;
+  text-decoration: none;
+  background-color: #ffffba;
+  padding: 15px;
+  color: black;
+}
+
+a.button3:visited {
+  display: block;
+  text-decoration: none;
+  background-color: #ffffba;
+  padding: 15px;
+  color: purple;
+}
+
+a.button3:hover {
+  color: white;
+  background-color: #76AEED; /* light-blue */
+}
+
+a.button3:active {
+  color: #FFF;
+  background-color: #5995DA; /* dark-blue */
+}
+
+
+
+/*  SCALLOP up 1 - Homepage */
+.scallop-up1 {
+  height:100px;
+  width:100%;
+  background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40, from(#FFE4E1), color-stop(0.49, #FFE4E1), color-stop(0.51, #BC8F8F), to(#BC8F8F));
+-webkit-background-size: 25px 100%;
+}
+
+/*  SCALLOP down 1 - Homepage */
+.scallop-down1 {
+  height:20px;
+  width:100%;
+  background: -webkit-gradient(radial, 50% 0, 10, 50% 0, 40, from(#FFE4E1), color-stop(0.49, #FFE4E1), color-stop(0.51, #BC8F8F), to(#BC8F8F));
+-webkit-background-size: 25px 100%;
+}
+
+/*  SCALLOP up 2 - Poem1page */
+.scallop-up2 {
+  height:100px;
+  width:100%;
+  background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40, from(#abb1cf), color-stop(0.49, #abb1cf), color-stop(0.51, #BC8F8F), to(#BC8F8F));
+-webkit-background-size: 37px 100%;
+}
+
+/*  SCALLOP down 2 - Poem1page */
+.scallop-down2 {
+  height:100px;
+  width:100%;
+  background: -webkit-gradient(radial, 50% 0, 10, 50% 0, 40, from(#abb1cf), color-stop(0.49, #abb1cf), color-stop(0.51, #BC8F8F), to(#BC8F8F));
+-webkit-background-size: 37px 100%;
+}
+
+/*  SCALLOP up 3 - Poem2page */
+.scallop-up3 {
+  height:100px;
+  width:100%;
+  background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40, from(#60D1C6), color-stop(0.49, #60D1C6), color-stop(0.51, #BC8F8F), to(#BC8F8F));
+-webkit-background-size: 37px 100%;
+}
+
+/*  SCALLOP down 3 - Poem2page */
+.scallop-down3 {
+  height:100px;
+  width:100%;
+  background: -webkit-gradient(radial, 50% 0, 10, 50% 0, 40, from(#60D1C6), color-stop(0.49, #60D1C6), color-stop(0.51, #BC8F8F), to(#BC8F8F));
+-webkit-background-size: 37px 100%;
+}
+
+/*  SCALLOP up 4 - Poem3page */
+.scallop-up4 {
+  height:100px;
+  width:100%;
+  background: -webkit-gradient(radial, 50% 100%, 10, 50% 100%, 40, from(#F5F5DC), color-stop(0.49, #F5F5DC), color-stop(0.51, #BC8F8F), to(#BC8F8F));
+-webkit-background-size: 37px 100%;
+}
+
+/*  SCALLOP down 4 - Poem3page */
+.scallop-down4 {
+  height:100px;
+  width:100%;
+  background: -webkit-gradient(radial, 50% 0, 10, 50% 0, 40, from(#F5F5DC), color-stop(0.49, #F5F5DC), color-stop(0.51, #BC8F8F), to(#BC8F8F));
+-webkit-background-size: 37px 100%;
+}
+
+div.lavender-block {
+  background:#abb1cf;
+  width:100%;
+  padding:3% 20% 6% 20%;
+  color:#000;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: 'Calligraffitti', cursive;;
+}
+
+div{
+  line-height: 30px;
+}
+
+div#poem1 {
+  font-family: baskerville;
+  font-size: 19px;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 20px;
+}
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+div.paleturquoise-block {
+  background:#60D1C6;
+  width:100%;
+  padding:3% 20% 7% 20%;
+  color:#000;
+}
+
+div#poem2 {
+  font-family: fantasy;
+  font-size: 19px;
+}
+
+div.beige-block {
+  background:#F5F5DC;
+  width:100%;
+  padding:3% 20% 7% 20%;
+  color:#000;
+}
+
+div#poem3 {
+  font-family: 'Akaya Telivigala', cursive;
+  font-size: 20px;
+}
