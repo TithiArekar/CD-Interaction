@@ -1,0 +1,798 @@
+.websiteBody{
+  margin: 0;
+}.Page{
+  display:block;
+  margin:auto;
+  width:100%;
+  height:auto;
+  pointer-events:auto;
+}
+.Page-outer{
+  pointer-events:none;
+  z-index:1;
+}
+.Frame{
+  position:relative;
+  z-index:2;
+  pointer-events:none;
+  width:100%;
+  margin-left:0;
+  height:2631px;
+  min-width:200px;
+  max-width:1440px;
+  margin:auto;
+  background-color:rgba(255, 255, 255, 1);
+  overflow:hidden;
+}
+.Frame-outer{
+  pointer-events:none;
+  z-index:2;
+}
+.Header{
+  position:relative;
+  z-index:31;
+  pointer-events:none;
+  margin-left:0px;
+  width:1440px;
+  min-width:1440px;
+  height:90px;
+  margin-top:0px;
+  margin-bottom:2539px;
+  min-height:90px;
+}
+.Header-outer{
+  pointer-events:none;
+  z-index:31;
+  position:relative;
+  display:flex;
+}
+.Rectangle-1{
+  position:relative;
+  z-index:32;
+  pointer-events:none;
+  margin-left:0px;
+  width:1440px;
+  min-width:1440px;
+  height:100px;
+  margin-top:0px;
+  margin-bottom:-7px;
+  min-height:100px;
+  content:url(assets/images/Rectangle_1.png);
+}
+.Rectangle-1-outer{
+  pointer-events:none;
+  z-index:32;
+  position:relative;
+  display:flex;
+}
+.JPEG-Name-Graffitti-{
+  position:relative;
+  z-index:33;
+  pointer-events:none;
+  margin-left:51px;
+  width:67px;
+  min-width:67px;
+  height:67px;
+  margin-top:-80px;
+  margin-bottom:13px;
+  min-height:67px;
+  content:url(assets/images/JPEG_Name_Graffitti_1.png);
+}
+.JPEG-Name-Graffitti--outer{
+  pointer-events:none;
+  z-index:33;
+  position:relative;
+  display:flex;
+}
+.Artworks{
+  position:relative;
+  z-index:36;
+  pointer-events:none;
+  margin-left:1057px;
+  width:147.45px;
+  min-width:147.45px;
+  margin-top:-72px;
+  margin-bottom:22.349999999999994px;
+  min-height:49.65px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:Open Sans;
+  font-weight:400;
+  font-size:24px;
+  line-height:33px;
+}
+.Artworks-outer{
+  pointer-events:none;
+  z-index:36;
+  position:relative;
+  display:flex;
+}
+.Contact{
+  position:relative;
+  z-index:35;
+  pointer-events:none;
+  margin-left:1248px;
+  width:130.21px;
+  min-width:130.21px;
+  margin-top:-72px;
+  margin-bottom:22.349999999999994px;
+  min-height:49.65px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:Open Sans;
+  font-weight:400;
+  font-size:24px;
+  line-height:33px;
+}
+.Contact-outer{
+  pointer-events:none;
+  z-index:35;
+  position:relative;
+  display:flex;
+}
+.Home{
+  position:relative;
+  z-index:34;
+  pointer-events:none;
+  margin-left:869px;
+  width:143.62px;
+  min-width:143.62px;
+  margin-top:-72px;
+  margin-bottom:22.349999999999994px;
+  min-height:49.65px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:Open Sans;
+  font-weight:400;
+  font-size:24px;
+  line-height:33px;
+}
+.Home-outer{
+  pointer-events:none;
+  z-index:34;
+  position:relative;
+  display:flex;
+}
+.q03-Pedestal-Project{
+  position:relative;
+  z-index:28;
+  pointer-events:none;
+  margin-left:0px;
+  width:1440px;
+  min-width:1440px;
+  height:741px;
+  margin-top:-2539px;
+  margin-bottom:1798px;
+  min-height:741px;
+  content:url(assets/images/_03_Pedestal_Project_Documentation_3___Tithi_Arekar_1.png);
+}
+.q03-Pedestal-Project-outer{
+  pointer-events:none;
+  z-index:28;
+  position:relative;
+  display:flex;
+}
+.Hi--I-m-Tithi-Arekar{
+  position:relative;
+  z-index:30;
+  pointer-events:none;
+  margin-left:354px;
+  width:731px;
+  min-width:731px;
+  margin-top:-2362px;
+  margin-bottom:2147px;
+  min-height:215px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Open Sans;
+  font-weight:700;
+  font-size:64px;
+  line-height:87px;
+}
+.Hi--I-m-Tithi-Arekar-outer{
+  pointer-events:none;
+  z-index:30;
+  position:relative;
+  display:flex;
+}
+.I-m-an-undergraduate{
+  position:relative;
+  z-index:29;
+  pointer-events:none;
+  margin-left:440px;
+  width:556px;
+  min-width:556px;
+  margin-top:-2205px;
+  margin-bottom:2069px;
+  min-height:136px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Open Sans;
+  font-weight:600;
+  font-size:32px;
+  line-height:43px;
+}
+.I-m-an-undergraduate-outer{
+  pointer-events:none;
+  z-index:29;
+  position:relative;
+  display:flex;
+}
+.Rectangle-4{
+  position:relative;
+  z-index:25;
+  pointer-events:none;
+  margin-left:0px;
+  width:1440px;
+  min-width:1440px;
+  height:191px;
+  margin-top:-1798px;
+  margin-bottom:1607px;
+  min-height:191px;
+  background-color:rgba(180, 73, 73, 1);
+}
+.Rectangle-4-outer{
+  pointer-events:none;
+  z-index:25;
+  position:relative;
+  display:flex;
+}
+.A-little-about-me{
+  position:relative;
+  z-index:26;
+  pointer-events:none;
+  margin-left:273px;
+  width:894px;
+  min-width:894px;
+  height:160px;
+  margin-top:-1783px;
+  margin-bottom:1623px;
+  min-height:160px;
+}
+.A-little-about-me-outer{
+  pointer-events:none;
+  z-index:26;
+  position:relative;
+  display:flex;
+}
+.A-little-bit-about-m{
+  position:relative;
+  z-index:27;
+  pointer-events:none;
+  margin-left:0px;
+  width:894px;
+  min-width:894px;
+  margin-top:0px;
+  margin-bottom:0px;
+  min-height:160px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:400;
+  font-size:28px;
+  line-height:33px;
+}
+.A-little-bit-about-m-outer{
+  pointer-events:none;
+  z-index:27;
+  position:relative;
+  display:flex;
+}
+.Take-a-look-at-my-wo{
+  position:relative;
+  z-index:24;
+  pointer-events:none;
+  margin-left:335px;
+  width:769px;
+  min-width:769px;
+  margin-top:-1569px;
+  margin-bottom:1377px;
+  min-height:192px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  color:rgba(0, 0, 0, 1);
+  font-style:normal;
+  font-family:Open Sans;
+  font-weight:400;
+  font-size:24px;
+  line-height:87px;
+}
+.Take-a-look-at-my-wo-outer{
+  pointer-events:none;
+  z-index:24;
+  position:relative;
+  display:flex;
+}
+.Quick-Picks{
+  position:relative;
+  z-index:7;
+  pointer-events:none;
+  margin-left:206px;
+  width:1023px;
+  min-width:1023px;
+  height:1071.48px;
+  margin-top:-1338px;
+  margin-bottom:266.52px;
+  min-height:1071.48px;
+}
+.Quick-Picks-outer{
+  pointer-events:none;
+  z-index:7;
+  position:relative;
+  display:flex;
+}
+.Group-2{
+  position:relative;
+  z-index:12;
+  pointer-events:none;
+  margin-left:553px;
+  width:470.03px;
+  min-width:470.03px;
+  height:489.78px;
+  margin-top:0px;
+  margin-bottom:581.7px;
+  min-height:489.78px;
+}
+.Group-2-outer{
+  pointer-events:none;
+  z-index:12;
+  position:relative;
+  display:flex;
+}
+.Rectangle-5-2{
+  position:relative;
+  z-index:13;
+  pointer-events:none;
+  margin-left:0px;
+  width:470.03px;
+  min-width:470.03px;
+  height:489.78px;
+  margin-top:0px;
+  margin-bottom:0px;
+  min-height:489.78px;
+  background-color:rgba(203, 162, 162, 0.4399999976158142);
+}
+.Rectangle-5-2-outer{
+  pointer-events:none;
+  z-index:13;
+  position:relative;
+  display:flex;
+}
+.hqh442-Artwork-10-Ad{
+  position:relative;
+  z-index:15;
+  pointer-events:none;
+  margin-left:30px;
+  width:412.14px;
+  min-width:412.14px;
+  height:234.9px;
+  margin-top:-448.78px;
+  margin-bottom:213.87999999999988px;
+  min-height:234.9px;
+  content:url(assets/images/hqh442_Artwork_10_Additional_Supporting_Photograph_1.png);
+}
+.hqh442-Artwork-10-Ad-outer{
+  pointer-events:none;
+  z-index:15;
+  position:relative;
+  display:flex;
+}
+.Boxed-Perspective{
+  position:relative;
+  z-index:14;
+  pointer-events:none;
+  margin-left:66px;
+  width:337.4px;
+  min-width:337.4px;
+  margin-top:-237.77999999999997px;
+  margin-bottom:96.83999999999992px;
+  min-height:140.94px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  color:rgba(0, 0, 0, 1);
+  font-style:italic;
+  font-family:Open Sans;
+  font-weight:700;
+  font-size:24px;
+  line-height:33px;
+}
+.Boxed-Perspective-outer{
+  pointer-events:none;
+  z-index:14;
+  position:relative;
+  display:flex;
+}
+.Group-1{
+  position:relative;
+  z-index:8;
+  pointer-events:none;
+  margin-left:0px;
+  width:470.03px;
+  min-width:470.03px;
+  height:525.4px;
+  margin-top:-1069.48px;
+  margin-bottom:544.0799999999999px;
+  min-height:525.4px;
+}
+.Group-1-outer{
+  pointer-events:none;
+  z-index:8;
+  position:relative;
+  display:flex;
+}
+.Rectangle-5-3{
+  position:relative;
+  z-index:9;
+  pointer-events:none;
+  margin-left:0px;
+  width:470.03px;
+  min-width:470.03px;
+  height:489.78px;
+  margin-top:0px;
+  margin-bottom:35.62000000000012px;
+  min-height:489.78px;
+  background-color:rgba(203, 162, 162, 0.4399999976158142);
+}
+.Rectangle-5-3-outer{
+  pointer-events:none;
+  z-index:9;
+  position:relative;
+  display:flex;
+}
+.hqh442-Artwork-02-1{
+  position:relative;
+  z-index:10;
+  pointer-events:none;
+  margin-left:156px;
+  width:168.7px;
+  min-width:168.7px;
+  height:420.68px;
+  margin-top:-514.4px;
+  margin-bottom:93.72000000000003px;
+  min-height:420.68px;
+  content:url(assets/images/hqh442_Artwork_02_1.png);
+}
+.hqh442-Artwork-02-1-outer{
+  pointer-events:none;
+  z-index:10;
+  position:relative;
+  display:flex;
+}
+.Self-doubt{
+  position:relative;
+  z-index:11;
+  pointer-events:none;
+  margin-left:126px;
+  width:228.49px;
+  min-width:228.49px;
+  margin-top:-134.39999999999998px;
+  margin-bottom:-0.12999999999988177px;
+  min-height:134.53px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  color:rgba(0, 0, 0, 1);
+  font-style:italic;
+  font-family:Open Sans;
+  font-weight:700;
+  font-size:24px;
+  line-height:33px;
+}
+.Self-doubt-outer{
+  pointer-events:none;
+  z-index:11;
+  position:relative;
+  display:flex;
+}
+.Group-4{
+  position:relative;
+  z-index:20;
+  pointer-events:none;
+  margin-left:553px;
+  width:470.03px;
+  min-width:470.03px;
+  height:519.67px;
+  margin-top:-519.48px;
+  margin-bottom:-0.19000000000005457px;
+  min-height:519.67px;
+}
+.Group-4-outer{
+  pointer-events:none;
+  z-index:20;
+  position:relative;
+  display:flex;
+}
+.Rectangle-5{
+  position:relative;
+  z-index:21;
+  pointer-events:none;
+  margin-left:0px;
+  width:470.03px;
+  min-width:470.03px;
+  height:489.78px;
+  margin-top:0px;
+  margin-bottom:29.890000000000327px;
+  min-height:489.78px;
+  background-color:rgba(203, 162, 162, 0.4399999976158142);
+}
+.Rectangle-5-outer{
+  pointer-events:none;
+  z-index:21;
+  position:relative;
+  display:flex;
+}
+.hqh442-Artwork-01-1{
+  position:relative;
+  z-index:22;
+  pointer-events:none;
+  margin-left:130px;
+  width:209.27px;
+  min-width:209.27px;
+  height:397.19px;
+  margin-top:-501.66999999999996px;
+  margin-bottom:104.48000000000002px;
+  min-height:397.19px;
+  content:url(assets/images/hqh442_Artwork_01_1.png);
+}
+.hqh442-Artwork-01-1-outer{
+  pointer-events:none;
+  z-index:22;
+  position:relative;
+  display:flex;
+}
+.Subconscious{
+  position:relative;
+  z-index:23;
+  pointer-events:none;
+  margin-left:137px;
+  width:196.46px;
+  min-width:196.46px;
+  margin-top:-149.66999999999996px;
+  margin-bottom:0.19000000000005457px;
+  min-height:149.48px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  color:rgba(0, 0, 0, 1);
+  font-style:italic;
+  font-family:Open Sans;
+  font-weight:700;
+  font-size:24px;
+  line-height:33px;
+}
+.Subconscious-outer{
+  pointer-events:none;
+  z-index:23;
+  position:relative;
+  display:flex;
+}
+.Group-3{
+  position:relative;
+  z-index:16;
+  pointer-events:none;
+  margin-left:0px;
+  width:470.03px;
+  min-width:470.03px;
+  height:507.19px;
+  margin-top:-519.48px;
+  margin-bottom:12.289999999999964px;
+  min-height:507.19px;
+}
+.Group-3-outer{
+  pointer-events:none;
+  z-index:16;
+  position:relative;
+  display:flex;
+}
+.Rectangle-5-1{
+  position:relative;
+  z-index:17;
+  pointer-events:none;
+  margin-left:0px;
+  width:470.03px;
+  min-width:470.03px;
+  height:489.78px;
+  margin-top:0px;
+  margin-bottom:17.41000000000031px;
+  min-height:489.78px;
+  background-color:rgba(203, 162, 162, 0.4399999976158142);
+}
+.Rectangle-5-1-outer{
+  pointer-events:none;
+  z-index:17;
+  position:relative;
+  display:flex;
+}
+.hqh442-Artwork-09-1{
+  position:relative;
+  z-index:18;
+  pointer-events:none;
+  margin-left:115px;
+  width:247.71px;
+  min-width:247.71px;
+  height:375.83px;
+  margin-top:-489.19px;
+  margin-bottom:113.36000000000013px;
+  min-height:375.83px;
+  content:url(assets/images/hqh442_Artwork_09_1.png);
+}
+.hqh442-Artwork-09-1-outer{
+  pointer-events:none;
+  z-index:18;
+  position:relative;
+  display:flex;
+}
+.New-Continental-Drif{
+  position:relative;
+  z-index:19;
+  pointer-events:none;
+  margin-left:100px;
+  width:270px;
+  min-width:270px;
+  margin-top:-143.19px;
+  margin-bottom:0.19000000000005457px;
+  min-height:143px;
+  text-align:center;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  color:rgba(0, 0, 0, 1);
+  font-style:italic;
+  font-family:Open Sans;
+  font-weight:700;
+  font-size:24px;
+  line-height:33px;
+}
+.New-Continental-Drif-outer{
+  pointer-events:none;
+  z-index:19;
+  position:relative;
+  display:flex;
+}
+.Footer{
+  position:relative;
+  z-index:3;
+  pointer-events:none;
+  margin-left:0px;
+  width:1440.13px;
+  min-width:1440.13px;
+  height:204px;
+  margin-top:-204px;
+  margin-bottom:0px;
+  min-height:204px;
+}
+.Footer-outer{
+  pointer-events:none;
+  z-index:3;
+  position:relative;
+  display:flex;
+}
+.Rectangle-4-1{
+  position:relative;
+  z-index:4;
+  pointer-events:none;
+  margin-left:0px;
+  width:1440.13px;
+  min-width:1440.13px;
+  height:204px;
+  margin-top:0px;
+  margin-bottom:0px;
+  min-height:204px;
+  background-color:rgba(180, 73, 73, 1);
+}
+.Rectangle-4-1-outer{
+  pointer-events:none;
+  z-index:4;
+  position:relative;
+  display:flex;
+}
+.Site-map-Home-Artwor{
+  position:relative;
+  z-index:6;
+  pointer-events:none;
+  margin-left:720px;
+  width:390.67px;
+  min-width:390.67px;
+  margin-top:-183px;
+  margin-bottom:47px;
+  min-height:136px;
+  text-align:left;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:400;
+  font-size:18px;
+  line-height:15px;
+}
+.Site-map-Home-Artwor-outer{
+  pointer-events:none;
+  z-index:6;
+  position:relative;
+  display:flex;
+}
+.Site-map-Home-Artwor-1{
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:400;
+  font-size:24px;
+  line-height:15px;
+}
+.Site-map-Home-Artwor-2{
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:400;
+  font-size:20px;
+  line-height:15px;
+}
+.Contact-Email--tithi{
+  position:relative;
+  z-index:5;
+  pointer-events:none;
+  margin-left:36px;
+  width:319.82px;
+  min-width:319.82px;
+  margin-top:-177px;
+  margin-bottom:79.59000000000015px;
+  min-height:97.41px;
+  text-align:left;
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:400;
+  font-size:nullpx;
+  line-height:15px;
+}
+.Contact-Email--tithi-outer{
+  pointer-events:none;
+  z-index:5;
+  position:relative;
+  display:flex;
+}
+.Contact-Email--tithi-1{
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:400;
+  font-size:24px;
+  line-height:15px;
+}
+.Contact-Email--tithi-2{
+  color:rgba(255, 255, 255, 1);
+  font-style:normal;
+  font-family:Roboto;
+  font-weight:400;
+  font-size:20px;
+  line-height:15px;
+}
