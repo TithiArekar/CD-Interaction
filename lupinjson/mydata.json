@@ -1,0 +1,23 @@
+[
+    {
+        "id": "1",
+        "fileName": "harry.png",
+        "caption": "Harry Potter"
+    },
+    {
+        "id": "2",
+        "fileName": "dumbledore.png",
+        "caption": "Albus Percival Wulfric Brian Dumbledore"
+    },
+    {
+        "id": "3",
+        "fileName": "hermione.png",
+        "caption": "Hermione Granger"
+    },
+    {
+        "id": "4",
+        "fileName": "voldy.png",
+        "caption": "Lord Voldemort"
+    }
+    
+]
